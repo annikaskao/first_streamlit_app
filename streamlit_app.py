@@ -26,7 +26,7 @@ streamlit.header("Fruityvice Fruit Advice!")
 
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + "kiwi")
-# Removing line so we only show table
+# Removing line to only show table
 # streamlit.text(fruityvice_response.json())  # just writes the data to the screen
 
 # Normalizes the json version of the response
